@@ -90,6 +90,7 @@ public class SuperMarketTestRunner implements CommandLineRunner {
 		try {
 			
 			service.ShowAllProInOnePage(4,true,"pName");
+			System.out.println("Changes occur in ");
 		}catch(Exception e) {
 			
 		}
